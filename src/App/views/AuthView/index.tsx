@@ -6,10 +6,10 @@ import { useScrollHandler } from "hooks";
 import { useSpotifyService } from "services/spotify";
 import { useWindowService } from "services/window";
 import { _saveTokens, isDev } from "utils";
-const clientId = "020edb4f1c8648af990f7d89bb3f578a";
+const clientId = "17ae74b3a33643239b1b01cc7fa5873c";
 const redirectUri = isDev()
   ? "http://localhost:3000"
-  : "https://cocky-ramanujan-a39f93.netlify.app";
+  : "https://rebound-spotify.netlify.app/";
 const scopes = ["user-read-currently-playing", "user-read-playback-state"];
 
 const initialOptions: SelectableListOption[] = [
