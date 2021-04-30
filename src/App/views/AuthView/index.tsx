@@ -9,7 +9,7 @@ import { _saveTokens, isDev } from "utils";
 const clientId = "020edb4f1c8648af990f7d89bb3f578a";
 const redirectUri = isDev()
   ? "http://localhost:3000"
-  : "https://trusting-mayer-01b56a.netlify.app";
+  : "https://cocky-ramanujan-a39f93.netlify.app";
 const scopes = ["user-read-currently-playing", "user-read-playback-state"];
 
 const initialOptions: SelectableListOption[] = [
